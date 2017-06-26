@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_shoping"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/shoping_select_back"
+            android:gravity="center_horizontal"
+            android:textColor="@drawable/secelt_text_color"
+            android:text="美购"
+            android:checked="true"
+            android:textSize="12sp" />
+
+        <RadioButton
+            android:id="@+id/rb_classify"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/classify_select_back"
+            android:gravity="center_horizontal"
+            android:textColor="@drawable/secelt_text_color"
+            android:text="分类"/>
+
+        <RadioButton
+            android:id="@+id/rb_beautiful"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/beautiful_select_back"
+            android:gravity="center_horizontal"
+            android:textColor="@drawable/secelt_text_color"
+            android:text="美圈"/>
+
+        <RadioButton
+            android:id="@+id/rb_cart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:button="@null"
+            android:drawableTop="@drawable/cart_select_back"
+            android:gravity="center_horizontal"
+            android:textColor="@drawable/secelt_text_color"
+            android:text="购物车"/>
+        <RadioButton
+            android:id="@+id/rb_mine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textSize="12sp"
+            android:drawableTop="@drawable/mine_select_back"
+            android:gravity="center_horizontal"
+            android:textColor="@drawable/secelt_text_color"
+            android:text="我的"/>
+
+    </RadioGroup>
+
+</LinearLayout>
